@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/**
+ * Reset CSS (for IE fix)
+ * 
+ * @author   nojima
+ * @version  reset fonts 1.0b1 
+ * 
+ **/
+body {
+    font-size: 81.25%; /* defalut font-size 16px -> 13px */
+}
+
+address,caption,cite,code,dfn,em,strong,th,var {
+    font-style: normal;
+    font-weight: normal;
+}
+
+br {
+    letter-spacing: 0;
+}
+
+.clearfix {
+    zoom: 1;
+}

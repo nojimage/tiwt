@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+/**
+ * Reset CSS
+ * 
+ * @author   nojima
+ * @version  reset fonts 1.0b1 
+ * 
+ * @original YUI reset-fonts.css 
+ *           Copyright (c) 2009, Yahoo! Inc. All rights reserved.
+ *           Code licensed under the BSD License:
+ *           http://developer.yahoo.net/yui/license.txt
+ *           version: 2.8.0r4
+ * 
+ * -- Usage --
+ * in html <head> section
+ * 
+ * <link rel="stylesheet" type="text/css" href="css/reset-fonts.css" />
+ * <!--[if IE]>
+ * <link rel="stylesheet" type="text/css" href="css/reset-fonts-ie.css" />
+ * <![endif]-->
+ * 
+ * -- Font size usage --
+ * 
+ * base font-size: 13px;
+ *  px : %
+ * ----+-------
+ *  10 :  76.9%
+ *  11 :  84.6%
+ *  12 :  92.3%
+ *  13 : 100.0%
+ *  14 : 107.7%
+ *  15 : 115.4%
+ *  16 : 123.1%
+ *  18 : 138.5%
+ *  20 : 153.8%
+ *  21 : 161.5%
+ *  24 : 184.6%
+ *  26 : 200.0%
+ *  28 : 215.4%
+ *  30 : 230.8%
+ *  32 : 246.2%
+ *  36 : 276.9%
+ *  
+ **/
+html {
+    color: #000;
+    background: #FFF;
+}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Osaka", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS P Gothic", Helvetica, Arial, clean, sans-serif;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: inherit;
+}
+
+fieldset,img,iframe {
+    border: 0;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+address,caption,cite,code,dfn,em,strong,th,var {
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+del,ins {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+caption,th {
+    text-align: left;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+input,button,textarea,select,optgroup,option {
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Osaka", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS P Gothic", Helvetica, Arial, clean, sans-serif;
+    font-size: 99%;
+    font-style: normal;
+    font-weight: normal;
+}
+
+optgroup {
+    color: #000;
+}
+
+q:before,q:after {
+    content: '';
+}
+
+abbr,acronym {
+    border: 0;
+    font-variant: normal;
+}
+
+sup {
+    vertical-align: baseline;
+}
+
+sub {
+    vertical-align: baseline;
+}
+
+legend {
+    color: #000;
+}
+
+pre,code,kbd,samp,tt {
+    font-family: "Osaka−等幅", "ＭＳ ゴシック", monospace;
+    line-height: 100%;
+}
+
+:focus {
+    outline: 0;
+}
+
+/**
+ * clearfix
+ */
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}

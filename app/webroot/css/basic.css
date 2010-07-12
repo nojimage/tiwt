@@ -1,0 +1,49 @@
+@CHARSET "UTF-8";
+/**
+ * Basic Classes
+ * 
+ * @author   nojima
+ * @version  basic css 1.0b1 
+ */
+
+/**
+ * floatleft
+ */
+.floatleft {
+    float: left;
+}
+
+/**
+ * floatright
+ */
+.floatright {
+    float: right;
+}
+
+/**
+ * hidden
+ */
+.hidden {
+    display: none;
+}
+
+/**
+ * textcenter
+ */
+.textcenter {
+    text-align: center;
+}
+
+/**
+ * textleft
+ */
+.textleft {
+    text-align: left;
+}
+
+/**
+ * textright
+ */
+.textright {
+    text-align: right;
+}

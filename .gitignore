@@ -1,0 +1,4 @@
+/app/config/core.php
+/app/config/database.php
+/app/tmp/cache
+.git/

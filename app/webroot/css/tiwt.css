@@ -1,0 +1,90 @@
+@CHARSET "UTF-8";
+
+#container {
+    margin: 0 auto;
+    width: 960px;
+}
+
+#footer {
+    text-align: center;
+}
+
+#copyright {
+    padding: 0 0 10px;
+}
+
+#footer a {
+    color: #fff;
+}
+
+#logout {
+    margin-bottom: 20px;
+}
+
+#TiwtAddForm {
+    margin: 20px auto;
+    padding: 20px 0 0;
+    border-top: 1px solid #e7e7e7;
+    width: 100%;
+}
+
+#TiwtAddForm textarea {
+    font-size: 18px;
+    height: 4em;
+    padding: 5px;
+}
+
+#tweets {
+    margin: 20px auto;
+    padding: 20px 0 0;
+    border-top: 1px solid #e7e7e7;
+}
+
+.tweet {
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #e4e4e4;
+    background-color: #fff;
+    font-size: 12px;
+}
+
+.tweet .left {
+    float: left;
+    width: 830px;
+    text-align: right;
+}
+
+.tweet .right {
+    float: right;
+    width: 60px;
+    text-align: right;
+}
+
+.tweet .icon {
+    display: block;
+}
+
+.tweet .icon img {
+    width: 48px;
+    height: 48px;
+}
+
+.tweet .username {
+    font-weight: bold;
+    padding-right: 1em;
+    font-size: 14px;
+}
+
+.tweet .status {
+    
+}
+
+.tweet .originalTweet {
+    clear: both;
+    display: block;
+}
+
+.adsense {
+    width: 468px;
+    margin: 0 auto;
+}

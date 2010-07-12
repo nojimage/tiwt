@@ -1,0 +1,22 @@
+<?php
+class DATABASE_CONFIG {
+
+    var $default = array(
+        'driver' => 'mysqli',
+        'persistent' => false,
+        'host' => 'localhost',
+        'login' => 'tiwt',
+        'password' => 'tiwt',
+        'database' => 'tiwt',
+        'encoding' => 'utf8',
+    );
+
+    var $twitter = array(
+        'driver' => 'TwitterKit.TwitterSource',
+        'oauth_consumer_key'    => '{YOUR_CONSUMER_KEY}',
+        'oauth_consumer_secret' => '{YOUR_CONSUMER_SECRET}',
+        'oauth_callback'        => '/twitter_kit/oauth/callback',
+        'cache' => true,
+    );
+
+}
